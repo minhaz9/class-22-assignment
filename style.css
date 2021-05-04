@@ -1,0 +1,83 @@
+.font-size {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.full-website .menu {
+  z-index: 999;
+}
+
+.full-website .menu .container .row .dev h4 {
+  margin: 12px 0px;
+  color: blueviolet;
+  cursor: pointer;
+}
+
+.full-website .menu .container .row .menu-item {
+  text-align: right;
+}
+
+.full-website .menu .container .row .menu-item ul li {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.full-website .menu .container .row .menu-item ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 12px 20px;
+  font-weight: 600;
+  font-size: 18px;
+  z-index: 1;
+  position: relative;
+}
+
+.full-website .menu .container .row .menu-item ul li a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background: #d63939;
+  border-radius: 0px 0px 10px 10px;
+  z-index: -1;
+  transition: .5s;
+}
+
+.full-website .menu .container .row .menu-item ul li a:hover::before {
+  height: 100%;
+}
+
+.full-website .menu .container .row .menu-item ul li:hover a {
+  color: wheat;
+}
+
+.full-website .banner {
+  background-image: url(./img/banner.jpg), linear-gradient(to right, rgba(0, 0, 0, 0.548), rgba(0, 0, 0, 0.548));
+  background-blend-mode: multiply;
+  padding: 300px 0px 250px 0px;
+  background-position: bottom;
+  background-size: cover;
+  position: relative;
+  top: 70px;
+}
+
+.about {
+  color: #887568;
+  margin-top: 63px;
+}
+
+.size {
+  font-size: 14px;
+}
+
+.col-md-7.bh.size {
+  line-height: 12px;
+}
+
+.a-size {
+  color: #2c2c2c;
+}
+/*# sourceMappingURL=style.css.map */
